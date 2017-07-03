@@ -1,0 +1,111 @@
+html{
+    max-width: 100%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+  body {
+  background-color: #9ACD32;
+  }
+  
+ @font-face{
+    font-family: "AlphaClouds";
+    src: url('AlphaClouds.ttf')
+}
+
+  
+  #txt1 {
+   color: black;
+   font-size: 22px;
+   font-family: AlphaClouds;
+   width: 500px;   
+   position: relative;
+  display: none;
+  margin-top: -850px;
+  margin-left: 1900px;
+  }
+  
+  #txt2 {
+   color: black;
+   font-size: 22px;
+   font-family: AlphaClouds;
+   width: 500px;   
+   position: relative;
+  display: none;
+  margin-top: -270px;
+  margin-left: 3500px;
+  }
+  
+  #txt3 {
+   color: black;
+   font-size: 20px;
+   font-family: AlphaClouds;
+   width: 700px;   
+   position: relative;
+   display: none;
+   margin-top: -270px;
+   margin-left: 5050px;
+  }
+  
+  #txti {
+   color: white;
+   font-size: 20px;
+   font-family: AlphaClouds;
+   width: 450px;   
+   position: relative;
+   margin-top: -850px;
+  }
+  
+  #plane {
+  position: relative;
+  margin-left: 3000px;
+  margin-top:-1280px;
+}
+   
+  #plane2 {
+  position: relative;
+  margin-left:9300px;
+  margin-top:-1280px;
+  z-index:10;
+  }
+  
+  #plane3 {
+  position: relative;
+  margin-left:15800px;
+  margin-top:-1280px;
+  z-index:10;
+  }
+  
+   
+  #cat {
+  position:absolute;
+  margin-top:432px;
+  margin-left:510px;
+  z-index:1;
+  }
+  
+  #skate {
+  position:absolute;
+  margin-top:513px;
+  margin-left:497px;
+  z-index:2;
+  }
+  
+  #background	{ 
+	width: 800rem; 
+	height:800px; 
+	background-image: url("bg2.png");
+	background-position: 0px 0px;
+	background-repeat: repeat-x;
+	position:relative;
+	
+}
+
+  footer {
+  position:absolute;
+  height: 30px;
+  font-family: AlphaClouds;
+  font-weight: bold;
+  color: black;
+  margin-top: 395px;
+  }
