@@ -42,5 +42,8 @@ $(function() {
     }, 2000); 
 });
 	
+$("#click").click(function() {
+	location.reload();
+});
 
 });
